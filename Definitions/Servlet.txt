@@ -1,0 +1,46 @@
+Servlet
+- is an efficient and powerful solution used to create dynamic content for
+the web.
+- Fundamental building block of mainstream server-side java.
+
+Why do we need Servlet?
+- servlet is a java program that is capable of extending the capabilities of a server.
+
+Advantage of Servlet
+- better perfomance
+	It creates a thread not process for each request.
+- Portability
+	Uses Java Language
+- Robust
+	Managed by JVM
+- Secure
+	uses java language, Java compiler creates a Bytecode class file.
+
+Web Application
+- Application that is accessible from the web.
+
+	Composed of web components:
+	- Servlet
+	- JSP
+	- HTML
+	- Etc.,
+
+CGI vs. Servlet
+
+CGI (Common Gateway Interface)
+- enables the web server to call an external program and pass HTTP request information to the external program to process the request.
+
+Used:
+- to generate pages dynamically
+- perform some other action when someone fills out an HTML form and click the submit button.
+
+How it works:
+- A reader sends a URL that causes the AOLserver to use CGI to run the program.
+
+Disadvantages of CGI
+- Increasing number of clients will take more time for sending response.
+- Starts a process for each request. (Web Server is limited to start a process)
+- CGI uses platform dependent language. (C, C++, perl)
+
+	Platform Dependent
+		- refers to application that run in only one hardware series with the operating system not being relevant.

@@ -1,0 +1,38 @@
+Servlet Terminology
+
+1. Website: static vs dynamic
+- Collection of related web pages that may contain text, images, audio and video.
+
+	Static website
+		- basic type of website that is easy to create
+		- no programming and database design
+		- web pages are coded in HTML
+		- infomation in the page does not changes
+		- looks like a printed page.
+		- content only changes when someone publishes and updates the file and send it to the web server.
+		- Flexibility
+
+	Dynamic website
+		- collection of dynamic web pages whose content change dynamically
+		- accesses database or content manager for its web content.
+		- changes/updates from the database will also changes/updates the website.
+		- uses client-side scripting or server-side scripting, or both to generate dyanamic content.
+		- uses server side languages (PHP, SERVLET, ASP, etc) for developing website.
+		-Content Management System.
+
+2. HTTP
+- Data communication protocol that are used to create a communication between client and server.
+
+3. HTTP Request
+- A request that contains all sorts of information that is sends by a computer to a web sever.
+
+3. Get vs. Post
+
+4. Container
+- used in java for dynamically generate the web pages on the server side.
+
+5. Server: Web vs. Application
+- used to manage the network resource and for running the program or software that provides services.
+
+6. Content Type
+- It is HTTP header that provides the description about what you are sending to the browser.

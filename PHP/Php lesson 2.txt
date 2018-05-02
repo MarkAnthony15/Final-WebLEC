@@ -1,0 +1,49 @@
+ 
+PHP
+is a powerful tool for making dynamic and interactive Web pages. widely-used, free, and efficient alternativeto competitors such as Microsoft's ASP.
+A PHP script always starts with
+<?php
+and ends with
+?>
+. A PHP script can be placed anywhere in thedocument.
+Expression evaluation -
+The order of priority in which operations in an expression are evaluated
+ .php
+- the default extension that the most Web servers use to process PHP script.
+comma (,) -
+separate multiple arguments that are passed to function.A loosely typed programming language
+Does not require data types of variables to be declared
+integer
+does not
+store decimal places.values can be assigned to a Boolean variable
+are TRUE and FALSE
+.Modulus (%) -
+Divides two operands and returns the remainderGlobal -
+A variables that is declared outside a function
+Function -
+allows you to that a related group of PHP commands as single units.local variable must be declared
+within the braces of function definition
+The SWITCH statement controls program flow by executing a specific set of statements, depending on
+Thereturned by a conditional expressionDefault -
+the value returned by a switch statement expression does not match a case label
+Break -
+exit a switch statement
+Iteration
+- repetition of a looping statementFOR statement initialization expression executed
+When the counter variables increments
+ 
+\
+’
+- the escape sequence for single quotation mark
+{}
+- character sets do you use for complex string syntax
+strlen -
+returns the length of the string
+strrchr -
+performs a case-sensitive search for specified characters in string and returns a substring from the lastoccurrence of the specified characters to the end of the string
+substr_replace -
+allows you to replace characters within a specified portion of a string
+str_split -
+splits each character in a string into an array element
+levenshtien -
+returns the number of characters you need to change for two strings to be the same

@@ -1,0 +1,59 @@
+Servlet API
+
+javax.servlet and javax.servlet.http are packages that represents the interfaces
+and classed for servlet api.
+
+javax.servlet contains interfaces and classes for servlet or web container and not specific to any protocol.
+
+javax.servlet.http contains interfaces and classes for http request only.
+
+Interfaces in javax.servlet package
+	- Servlet
+	- ServletRequest
+	- ServletResponse
+	- RequestDispatcher
+	- ServletConfig
+	- ServletContext
+	- SingleThreadModel
+	- Filter
+	- FilterConfig
+	- FilterChain
+	- ServletRequestListener
+	- ServletRequestAttributeListener
+	- ServletContextListener
+	- ServletContextAttributeListener
+
+Classes in javax.servlet package
+
+	- GenericServlet
+	- ServletInputStream
+	- ServletOutputStream
+	- ServletRequestWrapper
+	- ServletResponseWrapper
+	- ServletRequestEvent
+	- ServletContextEvent
+	- ServletRequestAttributeEvent
+	- ServletContextAttributeEvent
+	- ServletException
+	- UnavailableException
+
+Interfaces in javax.servlet.http package
+
+	- HttpServletRequest
+	- HttpServletResponse
+	- HttpSession
+	- HttpSessionListener
+	- HttpSessionAttributeListener
+	- HttpSessionBindingListener
+	- HttpSessionActivationListener
+	- HttpSessionContext (deprecated now)
+
+Classes in javax.servlet.http package
+
+	- HttpServlet
+	- Cookie
+	- HttpServletRequestWrapper
+	- HttpServletResponseWrapper
+	- HttpSessionEvent
+	- HttpSessionBindingEvent
+	- HttpUtils (deprecated now)
